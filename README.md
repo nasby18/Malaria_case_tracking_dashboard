@@ -8,9 +8,11 @@ This project is dedicated to creating an interactive dashboard for in-depth anal
 1. Data Preprocessing and Cleaning
 
 The notebooks directory hosts Jupyter Notebooks outlining the steps taken for data preprocessing and cleaning. These notebooks address missing values, standardize data, ensuring it is primed for analysis and dashboard creation.
+
 2. Dashboard Creation
 
 The dashboard directory houses code and assets for crafting an interactive dashboard. The dashboard delivers visual insights into malaria incidence, prevention measures, and demographic trends in African countries. Key features encompass an overview of malaria cases, analysis of preventive measures, and demographic statistics.
+
 3. Exploratory Data Analysis (EDA)
 
 The notebooks directory also contains notebooks dedicated to exploratory data analysis, presenting key findings and patterns within the malaria-related datasets.

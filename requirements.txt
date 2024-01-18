@@ -3,3 +3,4 @@ numpy==
 matplotlib==
 seaborn==
 dash==
+plotly==5.18

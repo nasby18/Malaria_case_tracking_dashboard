@@ -1,40 +1,34 @@
-# Summer Products and Sales Performance Dashboard
+## 🌍 Malaria in African Case Tracking Dashboard ##
 
-## Description
+**Description**
 
-This project focuses on data preprocessing, cleaning, and the creation of an interactive dashboard for analyzing summer product sales performance. The dataset includes computed insights on the success of active sellers and information about summer products with ratings and performance metrics from August 2020.
+This project is dedicated to creating an interactive dashboard for in-depth analysis of malaria-related data in African countries. The dataset comprises information on malaria incidence, preventive measures, and demographic characteristics spanning various countries and years.
 
-## Project Overview
+**Project Overview**
+1. Data Preprocessing and Cleaning
 
-### 1. Data Preprocessing and Cleaning
+The notebooks directory hosts Jupyter Notebooks outlining the steps taken for data preprocessing and cleaning. These notebooks address missing values, standardize data, ensuring it is primed for analysis and dashboard creation.
+2. Dashboard Creation
 
-The `notebooks` directory contains Jupyter Notebooks detailing the steps taken for data preprocessing and cleaning. These notebooks handle missing values, remove duplicates, and standardize data to prepare it for analysis.
+The dashboard directory houses code and assets for crafting an interactive dashboard. The dashboard delivers visual insights into malaria incidence, prevention measures, and demographic trends in African countries. Key features encompass an overview of malaria cases, analysis of preventive measures, and demographic statistics.
+3. Exploratory Data Analysis (EDA)
 
-### 2. Dashboard Creation
+The notebooks directory also contains notebooks dedicated to exploratory data analysis, presenting key findings and patterns within the malaria-related datasets.
 
-The `dashboard` directory includes code and assets for creating an interactive dashboard. The dashboard aims to provide visual insights into summer product sales trends and seller performance. Key features include sales overview, seller performance metrics, product ratings analysis, and time-based trends.
+**Dashboard Features**
 
-### 3. Exploratory Data Analysis (EDA)
+Malaria Incidence Overview: Visual representation of malaria cases, incidence rates, and trends.
+Preventive Measures Analysis: Insights into the utilization of bed nets, antimalarial drugs, and preventive treatments.
+Demographic Statistics: Population distribution, rural vs. urban living, and growth trends.
 
-The `notebooks` directory also includes notebooks for exploratory data analysis, showcasing key findings and patterns in the datasets.
+**Tools and Technologies Used**
 
-## Dashboard Features
+Python: The programming language employed for data preprocessing, analysis, and dashboard creation.
+Jupyter Notebooks: Utilized for interactive data analysis and visualization.
+Pandas, NumPy, Matplotlib, Seaborn: Python libraries for data manipulation and visualization.
+Dashboard Framework (Dash, Plotly): Employed for constructing interactive and responsive dashboards.
+HTML, CSS: Used for styling the dashboard.
 
-- **Sales Overview:** Total revenue, sales distribution, and top-selling products.
-- **Seller Performance:** Success metrics of active sellers.
-- **Product Ratings:** Analysis of product ratings and customer feedback.
-- **Time-based Analysis:** Trends and patterns over time.
+Acknowledgments
 
-## Tools and Technologies Used
-
-- **Python:** Programming language used for data preprocessing, analysis, and dashboard creation.
-- **Jupyter Notebooks:** Used for interactive data analysis and visualization.
-- **Pandas, NumPy, Matplotlib, Seaborn:** Python libraries for data manipulation and visualization.
-- **Dashboard Framework (e.g., Dash, Streamlit):** Utilized for building interactive and responsive dashboards.
-- **HTML, CSS:** Used for styling the dashboard.
-
-## Acknowledgments
-
-- The datasets used in this project are sourced from https://data.world/jfreex/summer-products-and-sales-performance-in-e-commerce-on-wish.
-
-
+The datasets used in this project are sourced from https://www.kaggle.com/datasets/lydia70/malaria-in-africa.
